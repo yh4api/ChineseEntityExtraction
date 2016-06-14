@@ -1,0 +1,101 @@
+#Question Patterns
+#Question	Category String Patterns	Question starts with...
+
+
+DESCRIPTION:DEFINITION	What (do|does) .* mean  
+
+
+ABBREVIATION:ABBREVIATION	What's the (abbreviation|acronym) (for|of) (the)?
+ABBREVIATION:ABBREVIATION	What is the (abbreviation|acronym) (for|of) (the)?
+ABBREVIATION:ABBREVIATION	What's the abbreviated (term|form|expression) (used )?(for|of) (the)?
+ABBREVIATION:ABBREVIATION	What is the abbreviated (term|form|expression) (used )?(for|of) (the)?
+ABBREVIATION:ABBREVIATION	What's .* an (acronym|abbreviation) (for|of)
+ABBREVIATION:ABBREVIATION	What is .* an (acronym|abbreviation) (for|of)
+
+ABBREVIATION:EXPANSION	What's CAPS  
+ABBREVIATION:EXPANSION	What is CAPS  
+ABBREVIATION:EXPANSION	What (do|does) CAPS stand for  
+ABBREVIATION:EXPANSION	What (do|does) CAPS mean 
+ABBREVIATION:EXPANSION	What's CAPS an (acronym|abbreviation) (for|of)
+ABBREVIATION:EXPANSION	What is CAPS an (acronym|abbreviation) (for|of)
+
+HUMAN:INDIVIDUAL	Who  
+HUMAN:INDIVIDUAL	Whose 
+HUMAN:INDIVIDUAL	Whom 
+
+LOCATION:MOUNTAIN	Where .* (M|m)ountai(n|ns)  
+LOCATION:OTHER	Where  
+
+NUMERIC:DATE	When  
+
+DESCRIPTION:REASON	Why  
+DESCRIPTION:REASON	What (causes|caused)  
+DESCRIPTION:REASON	What's (used|known) for   
+DESCRIPTION:REASON	What (is|are) (used|known) for  
+
+ENTITY:SUBSTANCE	What (is|are) .* (composed|made) of   
+ENTITY:SUBSTANCE	What's .* (composed|made) of   
+
+
+
+#Question Patterns - HOW cases
+#Question	Category String Patterns	Question starts with...
+
+ENTITY:TERM	How do (I|you) say  
+ENTITY:TERM	What do you call  
+
+DESCRIPTION:DEFINITION	How is .* defined 
+
+NUMERIC:DISTANCE	How long is   
+
+NUMERIC:WEIGHT	How much .* weight  
+NUMERIC:WEIGHT	How much .* weights  
+
+NUMERIC:MONEY	How much money   
+NUMERIC:MONEY	How much .* cost   
+NUMERIC:MONEY	How much .* rent   
+NUMERIC:MONEY	How much .* (fine|fined)   
+NUMERIC:MONEY	How much .* sell   
+NUMERIC:MONEY	How much .* (spend|spent)  
+NUMERIC:MONEY	How much .* (charge|charged)   
+NUMERIC:MONEY	How much .* (pay|paid)   
+NUMERIC:MONEY	How much .* worth  
+NUMERIC:MONEY	How much .* (tax|taxed)   
+NUMERIC:MONEY	How much .* wage   
+
+NUMERIC:SIZE	How big   
+
+DESCRIPTION:MANNER	How you  
+DESCRIPTION:MANNER	How (do|does|did)  
+DESCRIPTION:MANNER	How (is|was|were)  
+DESCRIPTION:MANNER	How has  
+DESCRIPTION:MANNER	How can  
+DESCRIPTION:MANNER	How would  
+DESCRIPTION:MANNER	How close  
+DESCRIPTION:MANNER	How successful  
+DESCRIPTION:MANNER	How effective  
+
+DESCRIPTION:REASON	How come  
+
+NUMERIC:DISTANCE	How deep  
+NUMERIC:DISTANCE	How far  
+NUMERIC:DISTANCE	How high  
+NUMERIC:DISTANCE	How tall  
+NUMERIC:DISTANCE	How large  
+NUMERIC:DISTANCE	How wide  
+
+NUMERIC:SPEED	How fast  
+
+NUMERIC:TEMPERATURE	How hot  
+
+NUMERIC:OTHER	How large  
+NUMERIC:OTHER	How loud  
+NUMERIC:OTHER	How often  
+
+NUMERIC:PERIOD	How long  
+NUMERIC:PERIOD	How old  
+
+NUMERIC:COUNT	How many  
+NUMERIC:COUNT	How much  
+
+DESCRIPTION:MANNER	How  

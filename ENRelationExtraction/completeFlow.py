@@ -1,4 +1,5 @@
 # input : 100% relevent docs and 100% not relevent docs manually created. In this example, ibm_sl_rel and ibm_sl_irrel respectively, derived from ibm_sl collection.
+#updated: 2016.06.22
 
 import REconfig as RC 
 from buildVerbRule import ruleBuilder as RB
@@ -82,7 +83,7 @@ def read_pos_key_unigram(fname, create, debug = 0):
 	trig_pos = 0
 	with open(fname, "r") as fid:
 		for line in fid:
-			if lineid > 50000:
+			if lineid > RC.testDataLines:
 				break
 			if line == "\n":
 				if oc == 1 :
@@ -177,7 +178,7 @@ def read_pos_key_bigram(fname, create, debug = 0):
 	trig_pos = 0
 	with open(fname, "r") as fid:
 		for line in fid:
-			if lineid > 50000:
+			if lineid > RC.testDataLines:
 				break
 			if line == "\n":
 				if oc == 1:
@@ -288,8 +289,8 @@ if __name__ == "__main__":
 		#To combine two relations
 		#If False, write only. if True, compare
 
-		read_pos_key_unigram("iot-train.pos", not doBoth)#iot-train.pos is test corpus, created in advance.
-		read_pos_key_bigram("iot-train.pos", not doBoth)	
+		read_pos_key_unigram(RC.testData, not doBoth)#iot-train.pos is test corpus, created in advance.
+		read_pos_key_bigram(RC.testData, not doBoth)	
 	
 		fid.close()
 

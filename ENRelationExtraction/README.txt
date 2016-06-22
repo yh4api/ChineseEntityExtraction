@@ -1,6 +1,9 @@
 # reference : Automatically generating Extraction patterns from untagged text, Ellen Rillof
 # reference : An introduction to the sundance and the autoslog system, Ellen Rillof and William Phillips
 
+dependency:
+  pattern (http://www.clips.ua.ac.be/pattern)
+  stanford corenlp postagger
 
 My code took ibm and softlayer for example and training -> retrive other acquisition results.
 
